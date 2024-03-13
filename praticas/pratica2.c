@@ -24,12 +24,6 @@ int main() {
   printf("salario liquido: %12.2f\x1b[0m\n",valor_salario_liquido);
   printf("\x1b[31m--------------------------------\x1b[0m\n");
     
-  
-  
-  
-  
-  
   return 0;
-
 }
   

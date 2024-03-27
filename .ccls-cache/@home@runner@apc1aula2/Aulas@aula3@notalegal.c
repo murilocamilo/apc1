@@ -8,6 +8,7 @@ int main() {
  printf("%-14s %12i %6.2f\n", "banana nanica", 2, 20.0);
  printf("%-14s %12i %6.2f\n", "uva globo", 1, 15.00);
  printf("%-14s %12i %6.2f\n", "laranja lima", 1, 18.00);
+ 
 
   //printf("banana nanica           2    20,00\n");
   // printf("uva globo               1    15,00\n");

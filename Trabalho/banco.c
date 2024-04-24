@@ -7,14 +7,14 @@ int main () {
    printf("         C A D A S T R O     \n");
    printf("----------------------------------\n");
   
-  printf("ensira o email: ");
-  int email;
-  int deu_certo1 = scanf("%d", &email);
   
-  printf("ensira o senha: ");
+  int email;
+    printf("ensira o email: ");
+     int deu_certo1 = scanf("%d", &email);
+  
   int senha;
-  int deu_certo2 = scanf("%d", &senha);
-
+   printf("ensira o senha: ");
+    int deu_certo2 = scanf("%d", &senha);
   
   return 0;
 }

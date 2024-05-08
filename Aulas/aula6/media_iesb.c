@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main() {
 
   float nota1;
@@ -17,7 +18,19 @@ int main() {
     if (nota2_eh_valida) {
       float media = (nota1 + nota2) / 2;
       printf("A média é: %f\n", media);
-
+if(media >= 9.0f && media <= 10.0f){
+  printf("A mensao é SS\n");
+} else if (media >= 7.0f && media <= 8.9f){
+  printf("A mensao é MS\n");
+} else if (media >= 5.0f && media <= 6.9f){
+  printf("A mensao é MM\n");
+} else if (media >= 3.0f && media <= 4.9f){
+  printf("A mensao é MI\n");} else if (media >= 0.1f && media <= 2.9f){
+  printf("A mensao é II\n");
+}else if (media == 0.0f){
+  printf("A mensao é SR\n");
+}
+  
     } else {
       printf("Nota invalida! Informe um valor entre 0.0 e 10.0\n");
     }
